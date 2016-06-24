@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'spring.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
-#       'ENGINE': 'django.db.backends.mysql',
+#       'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'restaurantdb',
         'USER': 'eva123',
         'PASSWORD': 'eva123',
